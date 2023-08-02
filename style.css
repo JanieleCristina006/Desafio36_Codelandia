@@ -1,0 +1,645 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500;600&display=swap');
+
+
+article{
+    width: 100%;
+    height: 8vh;
+    background: #884FFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article h3{
+    font-family:'Inter',sans-serif; 
+    font-weight: 500; 
+    color: #ffffff;
+    font-size: 18px; 
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: #030007;
+}
+
+header nav{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav figure{
+    width: 8vw;
+    height: 10vh; 
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 12vw;
+}
+
+header nav figure img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+header nav figure h2{
+    color: #FFF; 
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size:32px;
+}
+
+header nav button{
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+    border-radius: 4px;
+    border: 1px solid #884FFE; 
+    background-color: #030007;
+    color: #FFF; 
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    position: relative;
+    right: 12vw;
+}
+
+main{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    background: #030007;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+main .texto-main{
+    width: 30vw;
+    height: 60vh;
+    position: relative;
+    left: 12vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+}
+
+main .texto-main figure{
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+main .texto-main figure figcaption{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal; 
+    color: #FFF; 
+    margin-left: 3px;
+}
+
+main .texto-main h1{
+    white-space: pre-line;
+    font-family: 'Sora',sans-serif;
+    font-weight: 600;
+    color: #FFF; 
+    margin-bottom: 2vh;
+    font-size: 2.3rem;
+}
+
+main .texto-main h1 span{
+    color: #884FFE; 
+}
+
+main .texto-main p{
+    white-space: pre-line;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    color: #BFBFBF; 
+}
+
+
+main .card{
+    width: 25vw;
+    height: 53vh;
+    border-radius: 4px; 
+    background-color: #ffffff;
+    position: relative;
+    right: 12vw;
+}
+
+main .card .desconto{
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+
+main .card .desconto button{
+    border-radius: 4px;
+    background: #030007; 
+    color: #FFFFFF;
+    width:7vw;
+    height: 5vh;
+    text-transform: uppercase;
+    font-family: 'Sora',sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+}
+
+main .card .desconto p{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    margin-left: 1.1vw;
+}
+
+main .card .preco{
+    width: 20vw;
+    height: 15vh;
+     margin-left: 2vw;
+    
+}
+
+main .card .preco p{
+     font-family: 'Sora',sans-serif;
+     font-weight: 600;
+     font-style: normal; 
+     font-size: 1.3rem;
+     color: #08040D; 
+     
+}
+
+main .card .preco p span{
+     text-decoration: line-through;
+}
+
+main .card .preco h3{
+    
+     font-family: 'Sora',sans-serif;
+     font-weight: 600;
+     color: #030007; 
+     font-size: 3.4rem;
+     margin-top: 1.5vh;
+}
+
+main .card .Garantir-ebook{
+    margin-left: 2vw;
+    width: 21vw;
+    height: 9vh; 
+    display: flex;
+    align-items: center;
+     margin-top: 4vh;
+}
+
+main .card .Garantir-ebook button{
+    border-radius: 4px;
+    background: #884FFE; 
+    width: 21vw;
+    height: 7vh;
+    color: #FFF;
+    font-family: 'Sora',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase; 
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #29007a ;
+}
+
+main .card .forma-pagamento{
+    width: 21vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+}
+
+main .card .forma-pagamento p{
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    white-space: pre-line;
+    font-size: 0.9rem;
+    color: #08040D; 
+    font-style: normal; 
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #030007;
+}
+
+footer .texto-footer{
+    width: 30vw;
+    height: 7vh;
+   
+    display: flex;
+    align-items: center;
+    background: #030007;
+    
+}
+
+footer .texto-footer h4{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    color: #FFF; 
+
+}
+
+footer .texto-footer h4 .cor{
+    color: #884FFE; 
+}
+
+footer .logo-iuricode figure{
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 6vw;
+   align-items: center;
+    
+}
+
+footer .logo-iuricode figure figcaption{
+    font-family:'Inter',sans-serif;
+    font-weight: 500; 
+    color: #FFF; 
+}
+
+footer .logo-iuricode figure img{
+    width: 40px;
+    height: 40px;
+}
+
+
+@media(min-width:901px) and (max-width: 1500px)
+{
+ 
+    main .texto-main{   
+           
+        width: 400px;
+        height: 45vh;
+      
+       
+    }
+
+    main .texto-main figure{
+        width: 50%;
+        height: 10vh;
+        margin-left: 0.8vw;
+        display: flex;
+    }
+
+    main .texto-main figure img{
+       
+
+    }
+
+    main .texto-main h1{
+        font-size: 1.7rem;
+    }
+    
+    main .texto-main figure figcaption{
+       
+        font-size: 13px;
+        font-style: normal; 
+        color: #FFF; 
+       
+       
+    }
+
+
+    main .card{
+        width: 30vw;
+        height: 60vh;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+    main .card .desconto{
+       
+        width: 27vw;
+        height: 12vh;
+       
+    }
+
+    main .card .preco{
+        
+        margin-top: 2vh;
+        width: 27vw;
+        height: 25vh;
+        
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .card .preco h3{
+        font-size: 3rem;
+    }
+
+    main .card .forma-pagamento{
+    width:100%;
+    height: 7vh;
+    margin-left:0;
+
+    }
+
+    main .card .forma-pagamento p{
+        font-size: 0.7rem;
+    }
+
+    main .card .Garantir-ebook{
+        display: flex;
+       align-items: center;
+       justify-content: center;
+        width: 27vw;
+        height: 9vh; 
+        margin-left: 1vw;
+        
+    }
+
+    main .card .Garantir-ebook button{
+        width: 27vw;
+        height: 7vh;
+    }
+
+
+    footer{
+    width: 100%;
+    height: 14vh;
+    }
+
+    footer .texto-footer{
+    width: 40vw;
+    height: 7vh;
+   
+    
+    }
+
+    footer .texto-footer h4{
+        font-size: 0.8rem;
+    }
+
+
+    footer .logo-iuricode figure{
+    width: 20vw;
+    height: 8vh;
+     margin-left: 0vw;
+     margin-right: 3vw;
+    
+    }
+
+}
+
+
+@media(min-width:320px) and (max-width: 500px){
+
+
+    article h3{
+        font-size: 1rem;
+    }
+
+    header{
+        height: 29vh;
+       
+    }
+
+    header nav{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+header nav figure{
+    width:38vw;
+    height: 10vh; 
+    display: flex;
+    justify-content: center;
+      position: relative;
+    left:0vw; 
+    top: 2vh;  
+    
+}
+
+header nav button{
+    width: 85vw;
+    position: relative;
+    right: 0vw;
+    margin-top: 4vh;
+}
+
+main{
+   
+    width: 100%;
+    height: 135vh;
+   
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .texto-main{
+    width: 100%;
+    height: 55vh;
+    flex-direction: column;
+    position: relative;
+   justify-content: flex-start;
+   align-items: center;
+    left: 0vw;
+  
+    
+  
+}
+
+main .texto-main figure{
+    width: 80vw;
+    height: 10vh;
+    border-radius: 32px;
+    border: 1px solid #130B1D;
+    background: #08040D; 
+   
+   
+}
+
+main .texto-main h1{
+    white-space: pre-line;
+    text-align: center;
+   margin-top: 7vh;
+    font-size: 1.5rem;
+}
+
+main .texto-main p{
+    white-space: pre-line;
+    font-size: 15px; 
+    line-height: 24px;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+
+main .card{
+    width: 85vw;
+    height: 70vh;
+    border-radius: 4px; 
+    background-color: #ffffff;
+    position: relative;
+    left: 0.1vw;
+    display: flex;
+    flex-direction: column;
+   
+   
+}   
+
+main .card .desconto{
+    width:81vw;
+    height: 15vh;
+    margin-left: 2vw;
+    
+}
+
+main .card .desconto button{
+    width: 30vw;
+    height: 8vh;
+}
+
+main .card .desconto p{
+    margin-left: 2vw;
+}
+
+
+
+main .card .preco{
+    width:80vw;
+    height: 35vh;
+     margin-left: 2vw;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .card .preco p{
+    font-size: 1.4rem;
+}
+
+main .card .preco h3{
+    font-size: 3.2rem;
+}
+
+main .card .Garantir-ebook{
+  
+    width: 80vw;
+    height: 10vh; 
+    display: flex;
+    align-items: center;
+    margin-top: 0vh;
+   
+}
+
+main .card .Garantir-ebook button{
+    width: 80vw;
+    height: 9vh;
+    
+}
+
+main .card .forma-pagamento{
+    width: 81vw;
+    height: 7vh;
+    margin-left: 2vw;
+    margin-top: 1.4vh;
+   
+}
+
+main .card .forma-pagamento p{
+    font-size: 0.7rem;
+    color: #08040D; 
+    font-style: normal; 
+    text-align: center;
+}
+
+
+footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer .texto-footer{
+    width: 85vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+    footer .texto-footer h4{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    
+
+    footer .logo-iuricod figure{
+        display:none ;
+    }
+
+
+    footer .logo-iuricode figure{
+       display: none;
+        
+    }
+    
+    footer .logo-iuricode figure figcaption{
+        display: none;
+    }
+    
+    footer .logo-iuricode figure img{
+       display: none;
+    }
+
+}
